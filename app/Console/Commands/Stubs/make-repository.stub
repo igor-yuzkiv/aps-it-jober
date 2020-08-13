@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Repository;
+
+use App\Model\DummyModel as Model;
+
+class DummyRepository extends CoreRepository
+{
+    protected function getModelClass()
+    {
+        return Model::class;
+    }
+}
